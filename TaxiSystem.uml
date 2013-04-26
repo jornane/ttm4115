@@ -129,8 +129,8 @@
   <arctis:system xmi:id="_kyjQoKgoEeKuyKylBVapqg" base_Collaboration="_kyhbcKgoEeKuyKylBVapqg"/>
   <arctis:system xmi:id="_kyowMKgoEeKuyKylBVapqg" base_Activity="_kyniEKgoEeKuyKylBVapqg"/>
   <graphics:Shape xmi:id="_ky1kgKgoEeKuyKylBVapqg" x="250" y="220" width="120" height="70" base_Element="_ky0WYKgoEeKuyKylBVapqg"/>
-  <graphics:Shape xmi:id="_ky3ZsKgoEeKuyKylBVapqg" x="180" y="55" width="613" height="54" base_Element="_kyniEKgoEeKuyKylBVapqg"/>
-  <graphics:Shape xmi:id="_ky3ZsagoEeKuyKylBVapqg" x="180" y="108" width="613" height="415" base_Element="_ky2yoKgoEeKuyKylBVapqg"/>
+  <graphics:Shape xmi:id="_ky3ZsKgoEeKuyKylBVapqg" x="180" y="55" width="469" height="55" base_Element="_kyniEKgoEeKuyKylBVapqg"/>
+  <graphics:Shape xmi:id="_ky3ZsagoEeKuyKylBVapqg" x="180" y="108" width="469" height="325" base_Element="_ky2yoKgoEeKuyKylBVapqg"/>
   <graphics:Shape xmi:id="_lO4nUKgoEeKuyKylBVapqg" x="18" y="18" base_Element="_lOwrgKgoEeKuyKylBVapqg" orientation="north"/>
   <graphics:Shape xmi:id="_lO51cKgoEeKuyKylBVapqg" x="396" y="234" width="217" height="109" aux1="normal" base_Element="_lOpWwKgoEeKuyKylBVapqg"/>
   <arctis:esm xmi:id="_lPKUIagoEeKuyKylBVapqg" base_StateMachine="_lPJtEKgoEeKuyKylBVapqg"/>
@@ -140,7 +140,7 @@
   <graphics:Shape xmi:id="_3EF1YKv5EeKASKgeQ6dpnA" x="342" y="126" width="200" height="55" base_Element="_3Dy6cKv5EeKASKgeQ6dpnA"/>
   <graphics:Shape xmi:id="_v_1dkKv7EeKASKgeQ6dpnA" x="180" y="234" width="217" height="55" base_Element="_v_m0EKv7EeKASKgeQ6dpnA"/>
   <arctis:event xmi:id="_QUBPQav_EeKASKgeQ6dpnA" base_Transition="_QUBPQKv_EeKASKgeQ6dpnA" triggers="_srZ1Mqv3EeKASKgeQ6dpnA"/>
-  <graphics:Shape xmi:id="_TDV04KwCEeKASKgeQ6dpnA" x="459" y="333" base_Element="_TDUmwKwCEeKASKgeQ6dpnA"/>
+  <graphics:Shape xmi:id="_TDV04KwCEeKASKgeQ6dpnA" x="459" y="351" base_Element="_TDUmwKwCEeKASKgeQ6dpnA"/>
   <graphics:Shape xmi:id="_DhU5kK2kEeKu8ay50pfo3w" aux1="9 21 -111 0 " base_Element="_8BwXUKv7EeKASKgeQ6dpnA"/>
   <graphics:Shape xmi:id="_erasUK2kEeKu8ay50pfo3w" x="288" y="180" width="146" height="55" base_Element="_erFVIK2kEeKu8ay50pfo3w" orientation="south"/>
   <graphics:Shape xmi:id="_kqYlIK2kEeKu8ay50pfo3w" x="-3" y="68" base_Element="_kqXXAK2kEeKu8ay50pfo3w" orientation="west"/>
