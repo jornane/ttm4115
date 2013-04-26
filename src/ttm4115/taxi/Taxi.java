@@ -1,8 +1,6 @@
 package ttm4115.taxi;
 
 import com.bitreactive.library.android.maps.model.Position;
-import com.bitreactive.library.googleapis.latitude.LocationType;
-import com.bitreactive.library.googleapis.latitude.SingleLocationData;
 import com.bitreactive.library.mqtt.mqtt.MQTT;
 import com.bitreactive.library.mqtt.mqtt.MQTT.Message;
 
@@ -13,7 +11,8 @@ public class Taxi extends Block {
 
 	int step = 0;
 	int taxiId;
-
+	public com.bitreactive.library.android.maps.model.Position location;
+	public com.bitreactive.library.android.maps.model.Position destination;
 	public static String getAlias(int taxiId) {
 		return "Taxi "+taxiId;
 	}
@@ -33,16 +32,12 @@ public class Taxi extends Block {
 		return new Message(string.getBytes());
 	}
 
-	public Journey createJourney(SingleLocationData start, Position destination) {
+	public Journey createJourney(Position destination) {
 		return new Journey(
-				start.getData().getLatitude()+","+start.getData().getLongitude(),
+				location.getLatitude()+","+location.getLongitude(),
 				destination.getLatitude()+","+destination.getLongitude(),
 				getAlias(taxiId)
 			);
-	}
-
-	public SingleLocationData getMoholtLocation() {
-		return new SingleLocationData(new LocationType(63.422528, 10.394729));
 	}
 
 }

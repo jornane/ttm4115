@@ -16,4 +16,8 @@ public class Component extends Block {
 		return new Position(63.422528, 10.394729);
 	}
 
+	public Position getMoholtLocation() {
+		return new Position(63.412658, 10.431862);
+	}
+
 }
