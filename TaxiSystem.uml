@@ -109,8 +109,8 @@
       </when>
     </packagedElement>
     <packagedElement xmi:type="uml:TimeEvent" xmi:id="_h4lDgK2yEeKu8ay50pfo3w" name="t0">
-      <when xmi:id="_h4mRoK2yEeKu8ay50pfo3w" name="t0">
-        <expr xmi:type="uml:LiteralString" xmi:id="_h4mRoa2yEeKu8ay50pfo3w" name="t0" value="1000"/>
+      <when xmi:id="_OjDQoK5fEeKQLplbJ3I_jw" name="t0">
+        <expr xmi:type="uml:LiteralString" xmi:id="_OjIJIK5fEeKQLplbJ3I_jw" name="t0" value="0"/>
       </when>
     </packagedElement>
     <profileApplication xmi:id="_kyYRgKgoEeKuyKylBVapqg">
@@ -134,7 +134,7 @@
   <graphics:Shape xmi:id="_lO4nUKgoEeKuyKylBVapqg" x="18" y="18" base_Element="_lOwrgKgoEeKuyKylBVapqg" orientation="north"/>
   <graphics:Shape xmi:id="_lO51cKgoEeKuyKylBVapqg" x="396" y="234" width="217" height="109" aux1="normal" base_Element="_lOpWwKgoEeKuyKylBVapqg"/>
   <arctis:esm xmi:id="_lPKUIagoEeKuyKylBVapqg" base_StateMachine="_lPJtEKgoEeKuyKylBVapqg"/>
-  <graphics:Shape xmi:id="_l_m5oKgoEeKuyKylBVapqg" x="261" y="99" base_Element="_l_jPQKgoEeKuyKylBVapqg"/>
+  <graphics:Shape xmi:id="_l_m5oKgoEeKuyKylBVapqg" x="423" y="99" base_Element="_l_jPQKgoEeKuyKylBVapqg"/>
   <graphics:Shape xmi:id="_srjmMKv3EeKASKgeQ6dpnA" x="4" y="51" base_Element="_sri_IKv3EeKASKgeQ6dpnA" orientation="west"/>
   <graphics:Shape xmi:id="_w1DLIKv3EeKASKgeQ6dpnA" x="61" y="91" base_Element="_srgi4Kv3EeKASKgeQ6dpnA"/>
   <graphics:Shape xmi:id="_3EF1YKv5EeKASKgeQ6dpnA" x="342" y="126" width="200" height="55" base_Element="_3Dy6cKv5EeKASKgeQ6dpnA"/>
