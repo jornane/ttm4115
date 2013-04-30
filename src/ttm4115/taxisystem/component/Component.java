@@ -20,4 +20,8 @@ public class Component extends Block {
 		return new Position(63.412658, 10.431862);
 	}
 
+	public TaxiOrder createTaxiOrder(int taxiId, Position position) {
+		return new TaxiOrder(taxiId, position);
+	}
+
 }
