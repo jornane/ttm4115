@@ -3,6 +3,7 @@
     name="Taxi" 
     uuid="_XGyZQaZ9EeKswJiJXZFC9Q" 
     status="under construction" 
+    session="multi_session" 
     type="block" 
     >
     <required>

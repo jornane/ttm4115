@@ -10,9 +10,6 @@
         <dependency name="com.bitreactive.library.genericmapui" uuid="_ufQLEJFhEeKUbpabydPWtg" version="1.0.0"/>
         <dependency name="com.bitreactive.library.genericmapui" uuid="_ufQLEJFhEeKUbpabydPWtg" version="1.0.0"/>
         <dependency name="com.bitreactive.library.genericmapui" uuid="_ufQLEJFhEeKUbpabydPWtg" version="1.0.0"/>
-        <dependency name="com.bitreactive.library.googleapis.latitude" uuid="_shwRUNxvEeGdvY7HwEhcOg" version="1.0.1"/>
-        <dependency name="com.bitreactive.library.googleapis.latitude" uuid="_shwRUNxvEeGdvY7HwEhcOg" version="1.0.1"/>
-        <dependency name="com.bitreactive.library.googleapis.latitude" uuid="_shwRUNxvEeGdvY7HwEhcOg" version="1.0.1"/>
         <dependency name="com.bitreactive.library.iterator" uuid="_t-Gz0PIWEeGOgP0G8ZS3pw" version="1.2.0"/>
         <dependency name="com.bitreactive.library.iterator" uuid="_t-Gz0PIWEeGOgP0G8ZS3pw" version="1.2.0"/>
         <dependency name="com.bitreactive.library.iterator" uuid="_t-Gz0PIWEeGOgP0G8ZS3pw" version="1.2.0"/>

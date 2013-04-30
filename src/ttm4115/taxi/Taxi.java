@@ -35,8 +35,12 @@ public class Taxi extends Block {
 		return new Message(string.getBytes());
 	}
 
-	public Journey createJourney(String destination) {
-		return new Journey(location, destination, getAlias(taxiId));
+	public Journey createJourney(String start, String destination) {
+		if (start == null)
+			throw new NullPointerException("start");
+		if (destination == null)
+			throw new NullPointerException("destination");
+		return new Journey(start, destination, getAlias(taxiId));
 	}
 
 	public static String extractOrder(TaxiOrder order) {
