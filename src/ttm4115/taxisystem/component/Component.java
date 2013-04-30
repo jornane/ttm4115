@@ -6,11 +6,7 @@ import no.ntnu.item.arctis.runtime.Block;
 
 public class Component extends Block {
 
-	int taxiId;
-
-	public int generateTaxiId() {
-		return taxiId++;
-	}
+	private int taxiId = 0;
 
 	public String getStudenterSamfundetLocation() {
 		return "63.422528,10.394729";
@@ -22,6 +18,10 @@ public class Component extends Block {
 
 	public TaxiOrder createTaxiOrder(Taxi taxi, String position) {
 		return new TaxiOrder(taxi, position);
+	}
+
+	public int createTaxiId() {
+		return taxiId++;
 	}
 
 }

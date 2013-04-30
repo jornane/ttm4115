@@ -12,9 +12,8 @@ public class Taxi extends Block {
 
 	int step = 0;
 	public com.bitreactive.library.android.maps.model.Position destination;
-	public int taxiId;
 	public java.lang.String location;
-	
+	public int taxiId;
 	public static String getAlias(int taxiId) {
 		return "Taxi "+taxiId;
 	}
@@ -36,11 +35,11 @@ public class Taxi extends Block {
 	}
 
 	public Journey createJourney(String start, String destination) {
-		if (start == null)
-			throw new NullPointerException("start");
+		//if (start == null)
+			//throw new NullPointerException("start");
 		if (destination == null)
 			throw new NullPointerException("destination");
-		return new Journey(start, destination, getAlias(taxiId));
+		return new Journey(location, destination, getAlias(taxiId));
 	}
 
 	public static String extractOrder(TaxiOrder order) {
