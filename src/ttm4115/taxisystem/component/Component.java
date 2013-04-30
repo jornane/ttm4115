@@ -2,8 +2,6 @@ package ttm4115.taxisystem.component;
 
 import ttm4115.taxi.Taxi;
 
-import com.bitreactive.library.android.maps.model.Position;
-
 import no.ntnu.item.arctis.runtime.Block;
 
 public class Component extends Block {
@@ -14,15 +12,15 @@ public class Component extends Block {
 		return taxiId++;
 	}
 
-	public Position getStudenterSamfundetLocation() {
-		return new Position(63.422528, 10.394729);
+	public String getStudenterSamfundetLocation() {
+		return "63.422528,10.394729";
 	}
 
-	public Position getMoholtLocation() {
-		return new Position(63.412658, 10.431862);
+	public String getMoholtLocation() {
+		return "63.412658,10.431862";
 	}
 
-	public TaxiOrder createTaxiOrder(Taxi taxi, Position position) {
+	public TaxiOrder createTaxiOrder(Taxi taxi, String position) {
 		return new TaxiOrder(taxi, position);
 	}
 
