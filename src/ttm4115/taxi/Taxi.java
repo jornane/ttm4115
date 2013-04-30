@@ -2,7 +2,6 @@ package ttm4115.taxi;
 
 import ttm4115.taxisystem.component.TaxiOrder;
 
-import com.bitreactive.library.android.maps.model.Position;
 import com.bitreactive.library.mqtt.mqtt.MQTT;
 import com.bitreactive.library.mqtt.mqtt.MQTT.Message;
 
@@ -12,15 +11,15 @@ import no.ntnu.item.ttm4115.library.routeplanner.routeplanner.Journey;
 public class Taxi extends Block {
 
 	int step = 0;
-	public com.bitreactive.library.android.maps.model.Position location;
 	public com.bitreactive.library.android.maps.model.Position destination;
 	public int taxiId;
+	public java.lang.String location;
 	
 	public static String getAlias(int taxiId) {
 		return "Taxi "+taxiId;
 	}
 	public static String getAlias(TaxiOrder order) {
-		return getAlias(order.taxiId);
+		return getAlias(order.taxi.taxiId);
 	}
 
 	public void construct() {
@@ -36,16 +35,16 @@ public class Taxi extends Block {
 		return new Message(string.getBytes());
 	}
 
-	public Journey createJourney(Position destination) {
-		return new Journey(
-				location.getLatitude()+","+location.getLongitude(),
-				destination.getLatitude()+","+destination.getLongitude(),
-				getAlias(taxiId)
-			);
+	public Journey createJourney(String destination) {
+		return new Journey(location, destination, getAlias(taxiId));
 	}
 
-	public static Position extractOrder(TaxiOrder order) {
+	public static String extractOrder(TaxiOrder order) {
 		return order.position;
+	}
+	
+	public Taxi self() {
+		return this;
 	}
 
 }
