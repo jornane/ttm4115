@@ -35,7 +35,7 @@
       <ownedOperation xmi:id="_Rfn00KwBEeKASKgeQ6dpnA" name="getMoholtLocation"/>
       <ownedOperation xmi:id="_HWSaoLFiEeK16pcmj9UZOA" name="extractOrder"/>
       <ownedOperation xmi:id="_vI36wLFpEeK16pcmj9UZOA" name="self"/>
-      <ownedParameter xmi:id="_Q7NSwKgoEeKuyKylBVapqg" name="start" type="_Xv2kYaZ9EeKswJiJXZFC9Q"/>
+      <ownedParameter xmi:id="_Q7NSwKgoEeKuyKylBVapqg" name="start" type="_XwHDEKZ9EeKswJiJXZFC9Q"/>
       <ownedParameter xmi:id="_jAvqkKvzEeKASKgeQ6dpnA" name="disconnected" direction="out"/>
       <ownedParameter xmi:id="_x-7hIKvzEeKASKgeQ6dpnA" name="destination" type="_CtviMLFiEeK16pcmj9UZOA" isStream="true"/>
       <ownedParameter xmi:id="_GUjPIK2kEeKu8ay50pfo3w" name="location" type="_CtviMLFiEeK16pcmj9UZOA" isStream="true"/>
@@ -43,7 +43,7 @@
       <ownedParameter xmi:id="_OIJ_QK2tEeKu8ay50pfo3w" name="connected" type="_xGYwULFpEeK16pcmj9UZOA" direction="out" isStream="true"/>
       <ownedParameter xmi:id="_q8Wt8K2uEeKu8ay50pfo3w" name="disconnect" isStream="true"/>
       <variable xmi:id="_LHbvUK2kEeKu8ay50pfo3w" name="location" type="_Xv2kYaZ9EeKswJiJXZFC9Q"/>
-      <variable xmi:id="_DVTG4LFhEeK16pcmj9UZOA" name="taxiId" type="_Xv2kYaZ9EeKswJiJXZFC9Q"/>
+      <variable xmi:id="_DVTG4LFhEeK16pcmj9UZOA" name="taxiId" type="_XwHDEKZ9EeKswJiJXZFC9Q"/>
       <node xmi:type="uml:CallBehaviorAction" xmi:id="_Xvn64KZ9EeKswJiJXZFC9Q" name="c0" inPartition="_XG0OcKZ9EeKswJiJXZFC9Q" behavior="_AB69sObWEeG9SpMqxrlJPg">
         <argument xmi:type="uml:ValuePin" xmi:id="_XvpJAKZ9EeKswJiJXZFC9Q" name="qualityOfService" type="_XwHDEKZ9EeKswJiJXZFC9Q">
           <value xmi:type="uml:LiteralInteger" xmi:id="_XvpwEKZ9EeKswJiJXZFC9Q" name="qualityOfService" type="_XwHDEKZ9EeKswJiJXZFC9Q"/>

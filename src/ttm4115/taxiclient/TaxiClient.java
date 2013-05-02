@@ -9,11 +9,11 @@ public class TaxiClient extends Block {
 	public ttm4115.taxi.Taxi taxi;
 	public ttm4115.dispatcher.Request request;
 	
-	public static String getAlias(int i) {
-		return "Taxi "+i;
+	public static int getAlias(int i) {
+		return i;
 	}
-	public static String getAlias(Request r) {
-		return "Taxi "+r.taxi.taxiId;
+	public static int getAlias(Request r) {
+		return r.taxi.taxiId;
 	}
 	
 	public String objectToString(Object o) {
