@@ -23,12 +23,5 @@ public class TaxiClient extends Block {
 	public String numberToName(int num) {
 		return "Taxi "+num;
 	}
-	public int nameToNumber(String name) {
-		for(int i=0;i<name.length();i++) try {
-			return Integer.parseInt(name.substring(i));
-		} catch (Exception e) {
-		}
-		return -1;
-	}
 
 }
