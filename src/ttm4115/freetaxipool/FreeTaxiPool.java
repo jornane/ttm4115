@@ -17,6 +17,7 @@ public class FreeTaxiPool extends Block {
 	public Taxi getNearest(String position) {
 		if (taxis.size() == 0)
 			return null;
+		// TODO get real nearest
 		return taxis.get(0);
 	}
 

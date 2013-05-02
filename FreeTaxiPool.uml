@@ -13,6 +13,7 @@
           <transition xmi:id="_TQaEgbMpEeKTX9EPxo6N8Q" name="getCount / count" source="_TQXBMbMpEeKTX9EPxo6N8Q" target="_TQXBMbMpEeKTX9EPxo6N8Q"/>
           <transition xmi:id="_TQbSobMpEeKTX9EPxo6N8Q" name="construct / " source="_TQXBMLMpEeKTX9EPxo6N8Q" target="_TQXBMbMpEeKTX9EPxo6N8Q"/>
           <transition xmi:id="_Uxy-wLMpEeKTX9EPxo6N8Q" name="/ " source="_TQXBMbMpEeKTX9EPxo6N8Q" target="_Ux0M4LMpEeKTX9EPxo6N8Q"/>
+          <transition xmi:id="_qVN3kLNjEeKoANy1wiG5fQ" name="getNearest+getCount / taxi+count" source="_TQXBMbMpEeKTX9EPxo6N8Q" target="_TQXBMbMpEeKTX9EPxo6N8Q"/>
         </region>
       </ownedBehavior>
       <ownedOperation xmi:id="_q1RxELGJEeKgjququ3dSxw" name="put"/>
@@ -94,4 +95,5 @@
   <arctis:event xmi:id="_TQarkLMpEeKTX9EPxo6N8Q" base_Transition="_TQaEgbMpEeKTX9EPxo6N8Q" triggers="_ZHWaQLKbEeKTX9EPxo6N8Q" effects="_bU_9kLKbEeKTX9EPxo6N8Q"/>
   <arctis:event xmi:id="_TQb5sLMpEeKTX9EPxo6N8Q" base_Transition="_TQbSobMpEeKTX9EPxo6N8Q" triggers="_-ue4kLMoEeKTX9EPxo6N8Q"/>
   <arctis:event xmi:id="_Uxzl0LMpEeKTX9EPxo6N8Q" base_Transition="_Uxy-wLMpEeKTX9EPxo6N8Q"/>
+  <arctis:event xmi:id="_qj-FQLNjEeKoANy1wiG5fQ" base_Transition="_qVN3kLNjEeKoANy1wiG5fQ" triggers="_DyAw4LGJEeKgjququ3dSxw _ZHWaQLKbEeKTX9EPxo6N8Q" effects="_H6iFcLGJEeKgjququ3dSxw _bU_9kLKbEeKTX9EPxo6N8Q"/>
 </xmi:XMI>

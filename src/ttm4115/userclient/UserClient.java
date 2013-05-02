@@ -1,7 +1,7 @@
 package ttm4115.userclient;
 
+import ttm4115.dispatcher.Request;
 import ttm4115.queue.QueuePosition;
-import ttm4115.taxidispatch.Request;
 import no.ntnu.item.arctis.runtime.Block;
 
 public class UserClient extends Block {
