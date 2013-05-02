@@ -13,22 +13,22 @@ public class Taxi extends Block {
 	int step = 0;
 	public com.bitreactive.library.android.maps.model.Position destination;
 	public java.lang.String location;
-	public int taxiId;
+	public java.lang.String taxiId;
 	/* no.ntnu.item.ttm4115.library.routeplanner.routeplanner.Journey */
 	@Deprecated
-	public static int getAlias(String taxiId) {
-		return Integer.parseInt(taxiId);
+	public static String getAlias(String taxiId) {
+		return "Taxi "+Integer.parseInt(taxiId);
 	}
 	/* Arctis instantiator */
 	@Deprecated
-	public static int getAlias(int taxiId) {
-		return taxiId;
+	public static String getAlias(int taxiId) {
+		return "Taxi "+taxiId;
 	}
 	/**
 	 * Return the taxi id for a certain Taxi.
 	 * @return value of taxiId in Taxi
 	 */
-	public static int getAlias(TaxiOrder order) {
+	public static String getAlias(TaxiOrder order) {
 		return getAlias(order.taxi);
 	}
 	/**
@@ -36,8 +36,8 @@ public class Taxi extends Block {
 	 * @param taxi
 	 * @return
 	 */
-	public static int getAlias(Taxi taxi) {
-		return taxi.taxiId;
+	public static String getAlias(Taxi taxi) {
+		return "Taxi "+taxi.taxiId;
 	}
 	public void construct() {
 		System.setProperty("com.apple.mrj.application.apple.menu.about.name", "Taxi Simulator");

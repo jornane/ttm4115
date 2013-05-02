@@ -6,8 +6,8 @@ public class Component extends Block {
 
 	private int taxiId;
 
-	public int generateTaxiId() {
-		return taxiId++;
+	public String generateTaxiId() {
+		return "Taxi "+(taxiId++);
 	}
 
 }
