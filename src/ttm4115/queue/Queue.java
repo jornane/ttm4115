@@ -4,28 +4,28 @@ import java.util.ArrayList;
 
 import no.ntnu.item.arctis.runtime.Block;
 
-public class Queue extends Block {
+public class Queue<T> extends Block {
 
-	ArrayList<Object> data = new ArrayList<Object>();
+	ArrayList<T> data = new ArrayList<T>();
 
-	public void push(Object o) {
+	public void push(T o) {
 		data.add(o);
 	}
 
-	public Object pop() {
+	public T pop() {
 		if (data.size() == 0)
 			return null;
 		return data.remove(data.size()-1);
 	}
 
-	public Object shift() {
+	public T shift() {
 		if (data.size() == 0)
 			return null;
 		return data.remove(0);
 	}
 
-	public int count() {
-		return data.size();
+	public QueuePosition<T> position(T o) {
+		return new QueuePosition<T>(o, data.indexOf(o));
 	}
 
 	public void cancel(Object o) {

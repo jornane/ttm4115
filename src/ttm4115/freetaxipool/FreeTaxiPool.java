@@ -14,7 +14,7 @@ public class FreeTaxiPool extends Block {
 		taxis.add(taxi);
 	}
 
-	public Taxi getNearest() {
+	public Taxi getNearest(String position) {
 		if (taxis.size() == 0)
 			return null;
 		return taxis.get(0);
@@ -22,6 +22,10 @@ public class FreeTaxiPool extends Block {
 
 	public void remove(Taxi taxi) {
 		taxis.remove(taxi);
+	}
+
+	public int count() {
+		return taxis.size();
 	}
 
 }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="UserClient" 
+    uuid="_KbJA47MREeKTX9EPxo6N8Q" 
+    status="under construction" 
+    session="multi_session" 
+    type="block" 
+    >
+    <required>
+        <block name="c1" uuid="_97Ee4JU9EeKBC7BCojxIpQ"/>
+    </required>
+</block>

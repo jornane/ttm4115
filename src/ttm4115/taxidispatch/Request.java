@@ -1,6 +1,7 @@
 package ttm4115.taxidispatch;
 
 import ttm4115.taxi.Taxi;
+import ttm4115.userclient.UserOrder;
 
 public class Request {
 
@@ -10,6 +11,10 @@ public class Request {
 	public Request(UserOrder uo, Taxi t) {
 		userOrder = uo;
 		taxi = t;
+	}
+	
+	public String toString() {
+		return "Taxi "+taxi+": "+userOrder;
 	}
 
 	@Override

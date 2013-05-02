@@ -1,9 +1,11 @@
-package ttm4115.taxidispatch;
+package ttm4115.dispatcher;
 
 import ttm4115.taxi.Taxi;
+import ttm4115.taxidispatch.Request;
+import ttm4115.userclient.UserOrder;
 import no.ntnu.item.arctis.runtime.Block;
 
-public class TaxiDispatch extends Block {
+public class Dispatcher extends Block {
 
 	public boolean taxisAvailable;
 
@@ -25,6 +27,10 @@ public class TaxiDispatch extends Block {
 
 	public boolean largerThanZero(int i) {
 		return i > 0;
+	}
+
+	public void construct() {
+		System.out.println("Constructed dispatcher");
 	}
 
 }

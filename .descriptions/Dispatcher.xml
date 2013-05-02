@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Dispatcher" 
+    uuid="_XpcDoLMQEeKTX9EPxo6N8Q" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <block name="c0" uuid="_NIGd47GGEeKgjququ3dSxw"/>
+        <block name="c1" uuid="_jGujQLGEEeKgjququ3dSxw"/>
+        <block name="c2" uuid="_yTNa4rGMEeKgjququ3dSxw"/>
+    </required>
+</block>
