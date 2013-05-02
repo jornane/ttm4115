@@ -14,6 +14,7 @@
           <transition xmi:id="_H08VgLMjEeKTX9EPxo6N8Q" name="queuePosition / " source="_H05SMbMjEeKTX9EPxo6N8Q" target="_H05SMbMjEeKTX9EPxo6N8Q"/>
           <transition xmi:id="_H088kLMjEeKTX9EPxo6N8Q" name="start / " source="_H05SMLMjEeKTX9EPxo6N8Q" target="_H05SMbMjEeKTX9EPxo6N8Q"/>
           <transition xmi:id="_H088krMjEeKTX9EPxo6N8Q" name=" / stop" source="_H05SMbMjEeKTX9EPxo6N8Q" target="_H09joLMjEeKTX9EPxo6N8Q"/>
+          <transition xmi:id="_N7T6YLNxEeKoANy1wiG5fQ" name=" / request+cancel" source="_H05SMbMjEeKTX9EPxo6N8Q" target="_H05SMbMjEeKTX9EPxo6N8Q"/>
         </region>
       </ownedBehavior>
       <ownedOperation xmi:id="_oDjlULMTEeKTX9EPxo6N8Q" name="self"/>
@@ -23,7 +24,7 @@
       <ownedParameter xmi:id="_GqFCsLMUEeKTX9EPxo6N8Q" name="request" type="_BFLPsLMUEeKTX9EPxo6N8Q" direction="out" isStream="true"/>
       <ownedParameter xmi:id="_YByVYLMUEeKTX9EPxo6N8Q" name="cancel" type="_BFLPsLMUEeKTX9EPxo6N8Q" direction="out" isStream="true"/>
       <ownedParameter xmi:id="_6gHKwLMUEeKTX9EPxo6N8Q" name="requestQueue" type="_BFLPsLMUEeKTX9EPxo6N8Q" direction="out" isStream="true"/>
-      <ownedParameter xmi:id="_AOQHYLMXEeKTX9EPxo6N8Q" name="accepted" type="_UOsW4LMXEeKTX9EPxo6N8Q" isStream="true"/>
+      <ownedParameter xmi:id="_AOQHYLMXEeKTX9EPxo6N8Q" name="accepted" type="_QJzdILNvEeKoANy1wiG5fQ" isStream="true"/>
       <ownedParameter xmi:id="_CRM2kLMXEeKTX9EPxo6N8Q" name="queuePosition" type="_cmiyoLMXEeKTX9EPxo6N8Q" isStream="true"/>
       <ownedParameter xmi:id="_DD3MILMjEeKTX9EPxo6N8Q" name="start" type="_aXNxILMTEeKTX9EPxo6N8Q"/>
       <ownedParameter xmi:id="_Fv3fYLMjEeKTX9EPxo6N8Q" name="stop" direction="out"/>
@@ -51,7 +52,7 @@
       <node xmi:type="uml:ForkNode" xmi:id="_lXGwsLMUEeKTX9EPxo6N8Q" name="f0" outgoing="_m5ABQLMUEeKTX9EPxo6N8Q _o5mnELMUEeKTX9EPxo6N8Q" incoming="_ILAC4LMUEeKTX9EPxo6N8Q" inPartition="_KbK2ELMREeKTX9EPxo6N8Q"/>
       <node xmi:type="uml:ActivityParameterNode" xmi:id="_6gF8oLMUEeKTX9EPxo6N8Q" name="requestQueue" incoming="_9kKxoLMUEeKTX9EPxo6N8Q" inPartition="_KbK2ELMREeKTX9EPxo6N8Q" type="_BFLPsLMUEeKTX9EPxo6N8Q" parameter="_6gHKwLMUEeKTX9EPxo6N8Q"/>
       <node xmi:type="uml:ReadVariableAction" xmi:id="_8mC8gLMUEeKTX9EPxo6N8Q" name="rv1" outgoing="_9kKxoLMUEeKTX9EPxo6N8Q" incoming="_-G65YLMUEeKTX9EPxo6N8Q" inPartition="_KbK2ELMREeKTX9EPxo6N8Q" variable="_P0HJULMUEeKTX9EPxo6N8Q"/>
-      <node xmi:type="uml:ActivityParameterNode" xmi:id="_AOO5QLMXEeKTX9EPxo6N8Q" name="accepted" outgoing="_MefxALMXEeKTX9EPxo6N8Q" inPartition="_KbK2ELMREeKTX9EPxo6N8Q" type="_UOsW4LMXEeKTX9EPxo6N8Q" parameter="_AOQHYLMXEeKTX9EPxo6N8Q"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_AOO5QLMXEeKTX9EPxo6N8Q" name="accepted" outgoing="_MefxALMXEeKTX9EPxo6N8Q" inPartition="_KbK2ELMREeKTX9EPxo6N8Q" type="_QJzdILNvEeKoANy1wiG5fQ" parameter="_AOQHYLMXEeKTX9EPxo6N8Q"/>
       <node xmi:type="uml:ActivityParameterNode" xmi:id="_CRLocLMXEeKTX9EPxo6N8Q" name="queuePosition" outgoing="_M15kYLMXEeKTX9EPxo6N8Q" inPartition="_KbK2ELMREeKTX9EPxo6N8Q" type="_cmiyoLMXEeKTX9EPxo6N8Q" parameter="_CRM2kLMXEeKTX9EPxo6N8Q"/>
       <node xmi:type="uml:CallOperationAction" xmi:id="_GCldgLMXEeKTX9EPxo6N8Q" name="o0" inPartition="_KbK2ELMREeKTX9EPxo6N8Q" operation="_GCmEkLMXEeKTX9EPxo6N8Q">
         <argument xmi:id="_JzWZYbMXEeKTX9EPxo6N8Q" name="o" incoming="_MnNBELMXEeKTX9EPxo6N8Q" inPartition="_KbK2ELMREeKTX9EPxo6N8Q" type="_JzWZYLMXEeKTX9EPxo6N8Q"/>
@@ -131,6 +132,7 @@
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_UOsW4LMXEeKTX9EPxo6N8Q" name="ttm4115.taxidispatch.Request"/>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_WCBVsLMXEeKTX9EPxo6N8Q" name="ttm4115.queue.QueuePosition"/>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_cmiyoLMXEeKTX9EPxo6N8Q" name="ttm4115.queue.QueuePosition&lt;ttm4115.userclient.UserOrder>"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_QJzdILNvEeKoANy1wiG5fQ" name="ttm4115.dispatcher.Request"/>
     <profileApplication xmi:id="_KbJA4bMREeKTX9EPxo6N8Q">
       <eAnnotations xmi:id="_KbJA4rMREeKTX9EPxo6N8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q"/>
@@ -194,4 +196,5 @@
   <arctis:location xmi:id="_eM5O8LMjEeKTX9EPxo6N8Q" base_Variable="_eM4n4LMjEeKTX9EPxo6N8Q" partition="_KbK2ELMREeKTX9EPxo6N8Q"/>
   <graphics:Shape xmi:id="_eM52ALMjEeKTX9EPxo6N8Q" x="505" y="134" base_Element="_eM4n4LMjEeKTX9EPxo6N8Q"/>
   <graphics:Shape xmi:id="_gKfkELMjEeKTX9EPxo6N8Q" x="36" y="126" width="127" height="55" base_Element="_gKe9ALMjEeKTX9EPxo6N8Q"/>
+  <arctis:event xmi:id="_N7VIgLNxEeKoANy1wiG5fQ" base_Transition="_N7T6YLNxEeKoANy1wiG5fQ" effects="_GqEboLMUEeKTX9EPxo6N8Q _YBxuULMUEeKTX9EPxo6N8Q"/>
 </xmi:XMI>

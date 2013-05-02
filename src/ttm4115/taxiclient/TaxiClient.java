@@ -1,13 +1,13 @@
 package ttm4115.taxiclient;
 
-import ttm4115.taxidispatch.Request;
+import ttm4115.dispatcher.Request;
 import no.ntnu.item.arctis.runtime.Block;
 
 public class TaxiClient extends Block {
 
-	public ttm4115.taxidispatch.Request request;
+	public int taxiId;
 	public ttm4115.taxi.Taxi taxi;
-	public java.lang.String taxiId;
+	public ttm4115.dispatcher.Request request;
 	
 	public static String getAlias(int i) {
 		return "Taxi "+i;

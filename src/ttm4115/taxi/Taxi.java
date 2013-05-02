@@ -1,9 +1,9 @@
 package ttm4115.taxi;
 
-import ttm4115.taxisystem.component.TaxiOrder;
-
 import com.bitreactive.library.mqtt.mqtt.MQTT;
 import com.bitreactive.library.mqtt.mqtt.MQTT.Message;
+
+import ttm4115.taxisystem.component.TaxiOrder;
 
 import no.ntnu.item.arctis.runtime.Block;
 import no.ntnu.item.ttm4115.library.routeplanner.routeplanner.Journey;
@@ -11,7 +11,6 @@ import no.ntnu.item.ttm4115.library.routeplanner.routeplanner.Journey;
 public class Taxi extends Block {
 
 	int step = 0;
-	public com.bitreactive.library.android.maps.model.Position destination;
 	public java.lang.String location;
 	public java.lang.String taxiId;
 	/* no.ntnu.item.ttm4115.library.routeplanner.routeplanner.Journey */

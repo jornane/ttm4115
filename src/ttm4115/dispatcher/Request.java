@@ -1,4 +1,4 @@
-package ttm4115.taxidispatch;
+package ttm4115.dispatcher;
 
 import ttm4115.taxi.Taxi;
 import ttm4115.userclient.UserOrder;

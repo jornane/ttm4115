@@ -19,7 +19,8 @@ public class FreeTaxiPool extends Block {
 	public Request getNearest(UserOrder position) {
 		if (taxis.size() == 0)
 			return null;
-		return new Request(position, taxis.get(0));
+		// TODO get real nearest
+		return taxis.get(0);
 	}
 
 	public void remove(Taxi taxi) {
