@@ -3,7 +3,6 @@ package ttm4115.freetaxipool;
 import java.util.ArrayList;
 
 import ttm4115.taxi.Taxi;
-import ttm4115.taxidispatch.Request;
 import ttm4115.userclient.UserOrder;
 
 import no.ntnu.item.arctis.runtime.Block;
@@ -16,7 +15,7 @@ public class FreeTaxiPool extends Block {
 		taxis.add(taxi);
 	}
 
-	public Request getNearest(UserOrder position) {
+	public Taxi getNearest(UserOrder position) {
 		if (taxis.size() == 0)
 			return null;
 		// TODO get real nearest
