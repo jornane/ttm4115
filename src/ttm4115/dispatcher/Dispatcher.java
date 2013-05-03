@@ -9,9 +9,11 @@ public class Dispatcher extends Block {
 
 	public boolean taxisAvailable;
 	public ttm4115.userclient.UserOrder activeOrder;
+	public ttm4115.taxisystem.component.TaxiOrder positioner;
 
 	public Request createRequest(UserOrder uo, Taxi t) {
-		return new Request(uo, t);
+		// return new Request(uo, t); // Cannot use this due to ReactiveBlocks bug
+		return new Request(activeOrder, t);
 	}
 
 	public Taxi request2taxi(Request request) {
@@ -34,6 +36,7 @@ public class Dispatcher extends Block {
 	}
 
 	public TaxiOrder request2taxiOrder(Request request) {
+		System.out.println("Converting request to taxi order");
 		return new TaxiOrder(request.taxi, request.userOrder.destination);
 	}
 	
@@ -41,9 +44,4 @@ public class Dispatcher extends Block {
 		return new TaxiOrder(t, "Gl¿shaugen, Trondheim, Norway");
 	}
 	
-	public boolean debug(boolean var) {
-		System.out.println("DEBUG MESSAGE");
-		return var;
-	}
-
 }

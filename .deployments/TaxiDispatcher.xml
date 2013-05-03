@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deployment>
         <mapping role="component" platform="Java Standard Edition - J2SE">
+        <value name="loggingFramework" value="SLF4J and System.out()"/>
         <value name="libraryArchiveHandling" value="Unpack libraries"/>
         <value name="loggingLevel" value="warning"/>
-        <value name="loggingFramework" value="SLF4J and System.out()"/>
     </mapping></deployment>

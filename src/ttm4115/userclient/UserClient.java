@@ -8,6 +8,7 @@ public class UserClient extends Block {
 
 	public ttm4115.userclient.UserOrder order;
 	public java.lang.String name;
+	public ttm4115.userclient.UserOrder orderTemp;
 
 	public static String getAlias(String s) {
 		return s;
@@ -28,6 +29,9 @@ public class UserClient extends Block {
 
 	public static String objectToString(Object o) {
 		return o.toString();
+	}
+	public UserOrder nil() {
+		return null;
 	}
 
 }

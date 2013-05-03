@@ -24,8 +24,4 @@ public class TaxiClient extends Block {
 		return o.toString();
 	}
 
-	public String numberToName(int num) {
-		return "Taxi "+num;
-	}
-
 }

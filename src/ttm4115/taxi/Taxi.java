@@ -22,6 +22,7 @@ public class Taxi extends Block {
 	 * @return value of taxiId in Taxi
 	 */
 	public static String getAlias(TaxiOrder order) {
+		System.out.println("Getting alias for taxi "+order.taxi);
 		return getAlias(order.taxi);
 	}
 	/**
@@ -32,6 +33,11 @@ public class Taxi extends Block {
 	public static String getAlias(Taxi taxi) {
 		return taxi.taxiId;
 	}
+	
+	public String toString() {
+		return taxiId;
+	}
+	
 	public void construct() {
 		System.setProperty("com.apple.mrj.application.apple.menu.about.name", "Taxi Simulator");
 		setProperty(MQTT.P_MQTT_CLIENT_ID, "Taxi "+taxiId);
@@ -50,10 +56,12 @@ public class Taxi extends Block {
 			//throw new NullPointerException("start");
 		if (destination == null)
 			throw new NullPointerException("destination");
+		System.out.println("Creating a route from "+location+" to "+destination);
 		return new Journey(location, destination, ""+taxiId);
 	}
 
-	public static String extractOrder(TaxiOrder order) {
+	public String extractOrder(TaxiOrder order) {
+		System.out.println("Extracting position from order: "+order.position+" (traveling from "+location+")");
 		return order.position;
 	}
 	
