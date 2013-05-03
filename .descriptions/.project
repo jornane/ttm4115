@@ -5,9 +5,7 @@
     >
     <dependencies>
         <dependency name="com.bitreactive.library.mqtt" uuid="_iVDkMOJLEeGulKFN7xtCsw" version="1.3.0"/>
-        <dependency name="com.bitreactive.library.mqtt" uuid="_iVDkMOJLEeGulKFN7xtCsw" version="1.3.0"/>
-        <dependency name="com.bitreactive.library.mqtt" uuid="_iVDkMOJLEeGulKFN7xtCsw" version="1.3.0"/>
-        <dependency name="no.ntnu.item.ttm4115.library.motionsimulator" uuid="_zyD0kKKQEeKC2Y_rDtDvdQ" version="1.2.0"/>
+        <dependency name="no.ntnu.item.arctis.library.sessions" uuid="_ux8bAGJMEeGZ-NNKhUo_kg" version="1.5.1"/>
         <dependency name="no.ntnu.item.ttm4115.library.motionsimulator" uuid="_zyD0kKKQEeKC2Y_rDtDvdQ" version="1.2.0"/>
         <dependency name="no.ntnu.item.ttm4115.library.routeplanner" uuid="_oo35oKKQEeKC2Y_rDtDvdQ" version="1.1.0"/>
     </dependencies>

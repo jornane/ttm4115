@@ -82,6 +82,7 @@
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_I1TZsLGLEeKgjququ3dSxw" name="int"/>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_4TZPELJlEeKTX9EPxo6N8Q" name="T"/>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Fzl8ELMTEeKTX9EPxo6N8Q" name="ttm4115.queue.QueuePosition&lt;T>"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_MFKeMLPLEeKg4b3pWzWGgA" name="ttm4115.queue.QueuePosition&lt;ttm4115.userclient.UserOrder>"/>
     <profileApplication xmi:id="_NIGd4bGGEeKgjququ3dSxw">
       <eAnnotations xmi:id="_NIGd4rGGEeKgjququ3dSxw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q"/>

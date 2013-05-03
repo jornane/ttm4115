@@ -12,22 +12,16 @@ public class Taxi extends Block {
 
 	int step = 0;
 	public java.lang.String location;
-	public int taxiId;
-	/* no.ntnu.item.ttm4115.library.routeplanner.routeplanner.Journey */
-	@Deprecated
-	public static int getAlias(String taxiId) {
-		return Integer.parseInt(taxiId);
-	}
-	/* Arctis instantiator */
-	@Deprecated
-	public static int getAlias(int taxiId) {
+	public java.lang.String taxiId;
+	
+	public static String getAlias(String taxiId) {
 		return taxiId;
 	}
 	/**
 	 * Return the taxi id for a certain Taxi.
 	 * @return value of taxiId in Taxi
 	 */
-	public static int getAlias(TaxiOrder order) {
+	public static String getAlias(TaxiOrder order) {
 		return getAlias(order.taxi);
 	}
 	/**
@@ -35,7 +29,7 @@ public class Taxi extends Block {
 	 * @param taxi
 	 * @return
 	 */
-	public static int getAlias(Taxi taxi) {
+	public static String getAlias(Taxi taxi) {
 		return taxi.taxiId;
 	}
 	public void construct() {
