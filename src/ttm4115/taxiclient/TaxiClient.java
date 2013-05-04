@@ -9,6 +9,7 @@ public class TaxiClient extends Block {
 	public ttm4115.taxi.Taxi taxi;
 	public ttm4115.dispatcher.Request request;
 	public java.lang.String taxiId;
+	public java.lang.String stateTmp;
 	
 	public static String getAlias(Request r) {
 		return getAlias(r.taxi);
@@ -22,6 +23,9 @@ public class TaxiClient extends Block {
 	
 	public String objectToString(Object o) {
 		return o.toString();
+	}
+	public String emptyString() {
+		return "";
 	}
 
 }

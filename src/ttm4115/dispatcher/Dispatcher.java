@@ -12,8 +12,8 @@ public class Dispatcher extends Block {
 	public ttm4115.taxisystem.component.TaxiOrder positioner;
 
 	public Request createRequest(UserOrder uo, Taxi t) {
-		// return new Request(uo, t); // Cannot use this due to ReactiveBlocks bug
-		return new Request(activeOrder, t);
+		return new Request(uo, t); // Cannot use this due to ReactiveBlocks bug
+		//return new Request(activeOrder, t);
 	}
 
 	public Taxi request2taxi(Request request) {
