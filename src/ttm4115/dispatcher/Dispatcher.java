@@ -40,8 +40,8 @@ public class Dispatcher extends Block {
 		return new TaxiOrder(request.taxi, request.userOrder.destination);
 	}
 	
-	public TaxiOrder getGløshaugenOrder(Taxi t) {
-		return new TaxiOrder(t, "Gløshaugen, Trondheim, Norway");
+	public TaxiOrder getGl√∏shaugenOrder(Taxi t) {
+		return new TaxiOrder(t, "Gl√∏shaugen, Trondheim, Norway");
 	}
 	
 }
